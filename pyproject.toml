@@ -1,0 +1,16 @@
+[project]
+name = "ai-assistant-langgraph"
+version = "0.1.0"
+description = "AI Assistant using LangChain, LangGraph, and OpenAI"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.dependencies]
+langchain-core = "*"
+langchain-openai = "*"
+langchain = "*"
+langgraph = "*"
+python-dotenv = "*"
+
+[tool.uv]
+dev-dependencies = ["black", "ruff"]
